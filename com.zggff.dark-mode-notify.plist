@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.zggff.dark-mode-notify</string>
+    <key>KeepAlive</key>
+    <true/>
+        <!-- this contains the error log file -->
+    <key>StandardErrorPath</key>
+    <string>/Users/maxgiga/dev/themes/dark-mode-notify-script/dark-mode-notify-stderr.log</string>
+        <!-- this contains the stdout log file -->
+    <key>StandardOutPath</key>
+    <string>/Users/maxgiga/dev/themes/dark-mode-notify-script/dark-mode-notify-stdout.log</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string><![CDATA[/Users/maxgiga/.cabal/bin:/Users/maxgiga/.ghcup/bin:/Users/maxgiga/.local/bin:/Users/maxgiga/.yarn/bin:/Users/maxgiga/.nvm/versions/node/v17.3.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/maxgiga/.cargo/bin]]></string>
+    </dict>
+    <key>ProgramArguments</key>
+    <array>
+        <!-- path to dark-mode-notify script -->
+       <string>/usr/local/bin/dark-mode-notify</string>
+       <!-- path to your local script -->
+       <string>/Users/maxgiga/dev/themes/dark-mode-notify-script/dark-mode-notify-script.zsh</string>
+    </array>
+</dict>
+</plist>
