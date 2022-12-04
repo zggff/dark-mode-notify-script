@@ -16,7 +16,7 @@
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
-        <string><![CDATA[/Users/maxgiga/.cabal/bin:/Users/maxgiga/.ghcup/bin:/Users/maxgiga/.local/bin:/Users/maxgiga/.yarn/bin:/Users/maxgiga/.nvm/versions/node/v17.3.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/maxgiga/.cargo/bin]]></string>
+        <string><![CDATA[/Users/maxgiga/.cargo/bin:/Users/maxgiga/.local/bin:/Users/maxgiga/.local/state/fnm_multishells/79832_1670174720876/bin:/Users/maxgiga/.local/share/nvim/mason/bin:/Users/maxgiga/.cabal/bin:/Users/maxgiga/.ghcup/bin:/Users/maxgiga/Library/Caches/fnm_multishells/79605_1670174712894/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands]]></string>
     </dict>
     <key>ProgramArguments</key>
     <array>

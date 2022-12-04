@@ -10,11 +10,13 @@ echo "" > dark-mode-notify-stderr.log
 echo "" > dark-mode-notify-stdout.log
 ```
 
+
+
 ## instructions
 ```
 cp com.zggff.dark-mode-notify.plist ~/Library/LaunchAgents/com.zggff.dark-mode-notify.plist
-launchctl load ~/Library/LaunchAgents/com.zggff.dark-mode-notify.plist
-launchctl start com.zggff.dark-mode-notify 
+launchctl bootstrap gui/<user_id> ~/Library/LaunchAgents/com.zggff.dark-mode-notify.plist
+launchctl kickstart gui/<user_id>/com.zggff.dark-mode-notify 
 ```
 
 ## dependencies
